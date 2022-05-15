@@ -4,8 +4,8 @@ Video extension Artemisa V9958 with CXA2075 (Composiet)
 V9958 for Artemisa(Made Alvaro Polo) [Artemisa MSX Project](https://github.com/apoloval/artemisa)
 
 I made an Video Extension for the Artemisa with an V9958 and en CXA2075(for Composiet out).
-wich works fine in MSX1 modus, however I also want it to work with MSX2 Modus (screen4 to 8).
-have tried a cartridge with a lot of rom's for V9958 and an MSX2 Rom on the mainboard, but that did not work out.
+Which works fine in MSX1 modus, however I also want it to work with MSX2 Modus (screen4 to 8).
+Have tried a cartridge with a lot of rom's for V9958 and an MSX2 Rom's on the mainboard, but that did not work out.
 
 
 
