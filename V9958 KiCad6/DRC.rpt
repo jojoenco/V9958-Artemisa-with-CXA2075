@@ -1,0 +1,86 @@
+** Drc report for /home/user/Documenten/KICAD Ontwerpen/V9958 V9938 voor MSX to MSX2/V9958 V9938/V9958 V9938.kicad_pcb **
+** Created on 2020-11-22 20:38:43 **
+
+** Found 26 DRC errors **
+ErrType(51): Drilled holes too close together
+    @(141,065 mm, 102,235 mm): Pad 2 of C5U3-V9958 on All copper layers
+    @(140,065 mm, 102,235 mm): Pad 2 of C5U3-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(137,065 mm, 102,235 mm): Pad 1 of C5U3-V9958 on All copper layers
+    @(138,065 mm, 102,235 mm): Pad 1 of C5U3-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(155,670 mm, 102,235 mm): Pad 2 of C4U2-V9958 on All copper layers
+    @(154,670 mm, 102,235 mm): Pad 2 of C4U2-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(151,670 mm, 102,235 mm): Pad 1 of C4U2-V9958 on All copper layers
+    @(152,670 mm, 102,235 mm): Pad 1 of C4U2-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(155,670 mm, 70,485 mm): Pad 2 of C6U4-V9958 on All copper layers
+    @(154,670 mm, 70,485 mm): Pad 2 of C6U4-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(151,670 mm, 70,485 mm): Pad 1 of C6U4-V9958 on All copper layers
+    @(152,670 mm, 70,485 mm): Pad 1 of C6U4-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(141,160 mm, 70,485 mm): Pad 2 of C7U5-V9958 on All copper layers
+    @(140,160 mm, 70,485 mm): Pad 2 of C7U5-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(137,160 mm, 70,485 mm): Pad 1 of C7U5-V9958 on All copper layers
+    @(138,160 mm, 70,485 mm): Pad 1 of C7U5-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(129,540 mm, 78,280 mm): Pad 2 of C3U1-V9958 on All copper layers
+    @(129,540 mm, 79,280 mm): Pad 2 of C3U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(129,540 mm, 82,280 mm): Pad 1 of C3U1-V9958 on All copper layers
+    @(129,540 mm, 81,280 mm): Pad 1 of C3U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(129,540 mm, 62,325 mm): Pad 2 of C2U1-V9958 on All copper layers
+    @(129,540 mm, 61,325 mm): Pad 2 of C2U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(129,540 mm, 58,325 mm): Pad 1 of C2U1-V9958 on All copper layers
+    @(129,540 mm, 59,325 mm): Pad 1 of C2U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(112,300 mm, 68,580 mm): Pad 2 of C1U1-V9958 on All copper layers
+    @(113,300 mm, 68,580 mm): Pad 2 of C1U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(116,300 mm, 68,580 mm): Pad 1 of C1U1-V9958 on All copper layers
+    @(115,300 mm, 68,580 mm): Pad 1 of C1U1-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(99,695 mm, 63,595 mm): Pad 2 of C8U6-V9958 on All copper layers
+    @(99,695 mm, 62,595 mm): Pad 2 of C8U6-V9958 on All copper layers
+ErrType(51): Drilled holes too close together
+    @(99,695 mm, 59,595 mm): Pad 1 of C8U6-V9958 on All copper layers
+    @(99,695 mm, 60,595 mm): Pad 1 of C8U6-V9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(152,848 mm, 102,413 mm): Track 0,400 mm [+5V] on F.Cu, length: 1,896 mm
+    @(154,670 mm, 102,235 mm): Pad 2 of C4U2-V9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(96,795 mm, 60,931 mm): Track 0,250 mm [Net-(CC5-V9958-Pad1)] on F.Cu, length: 10,148 mm
+    @(97,790 mm, 70,485 mm): Pad 2 of R1_9958 on All copper layers
+ErrType(16): Two track ends too close
+    @(98,390 mm, 123,076 mm): Track 0,250 mm [CD0] on B.Cu, length: 7,359 mm
+    @(96,747 mm, 122,070 mm): Track 0,250 mm [CD1] on B.Cu, length: 9,419 mm
+ErrType(17): Two track ends too close
+    @(103,594 mm, 128,280 mm): Track 0,250 mm [CD0] on B.Cu, length: 5,824 mm
+    @(96,747 mm, 122,070 mm): Track 0,250 mm [CD1] on B.Cu, length: 9,419 mm
+ErrType(4): Track too close to pad
+    @(93,170 mm, 80,685 mm): Track 0,250 mm [Net-(J1-Pad16)] on B.Cu, length: 20,004 mm
+    @(97,790 mm, 75,565 mm): Pad 1 of R1_9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(107,060 mm, 67,431 mm): Track 0,250 mm [Net-(J1-Pad14)] on F.Cu, length: 19,643 mm
+    @(97,790 mm, 75,565 mm): Pad 1 of R1_9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(92,298 mm, 80,660 mm): Track 0,250 mm [Net-(J1-Pad13)] on B.Cu, length: 17,645 mm
+    @(97,790 mm, 75,565 mm): Pad 1 of R1_9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(105,900 mm, 66,367 mm): Track 0,250 mm [Net-(J1-Pad10)] on F.Cu, length: 14,690 mm
+    @(97,790 mm, 75,565 mm): Pad 1 of R1_9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(123,030 mm, 89,911 mm): Track 0,250 mm [A5] on F.Cu, length: 10,206 mm
+    @(128,270 mm, 90,805 mm): Pad 1 of R2_9958 on All copper layers
+ErrType(4): Track too close to pad
+    @(123,030 mm, 91,692 mm): Track 0,250 mm [A4] on F.Cu, length: 9,446 mm
+    @(128,270 mm, 90,805 mm): Pad 1 of R2_9958 on All copper layers
+
+** Found 0 unconnected pads **
+
+** End of Report **

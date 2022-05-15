@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "gfx-9918-cache")(type "Legacy")(uri "/home/user/Documenten/KICAD Ontwerpen/Artemisa/artemisa-master/hardware/GFX-9918 org/gfx-9918/gfx-9918-cache.lib")(options "")(descr ""))
+  (lib (name "V9958-V9938-rescue")(type "Legacy")(uri "${KIPRJMOD}/V9958 V9938-rescue.lib")(options "")(descr ""))
+)

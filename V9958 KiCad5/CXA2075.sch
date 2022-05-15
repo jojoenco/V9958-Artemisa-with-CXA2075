@@ -1,0 +1,768 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cxa2075:CXA2075 U1-CXA2075
+U 1 1 5F4ACA71
+P 5550 3750
+F 0 "U1-CXA2075" H 5750 4750 50  0000 C CNN
+F 1 "CXA2075" H 5150 4750 50  0000 C CNN
+F 2 "Package_SO:SOP-24_7.5x15.4mm_P1.27mm" H 5750 3100 50  0001 C CNN
+F 3 "" H 5750 3100 50  0001 C CNN
+	1    5550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3250 2250 2850
+Text Notes 1000 3400 0    50   ~ 0
+G
+Text Notes 1000 3500 0    50   ~ 0
+R
+Text Notes 1000 3600 0    50   ~ 0
+B
+Text Notes 800  3700 0    50   ~ 0
+H-Sync
+Text Notes 800  3800 0    50   ~ 0
+C-sync
+$Comp
+L power:GNDD #PWR0113
+U 1 1 5F4B02A3
+P 2250 4100
+F 0 "#PWR0113" H 2250 3850 50  0001 C CNN
+F 1 "GNDD" H 2254 3945 50  0000 C CNN
+F 2 "" H 2250 4100 50  0001 C CNN
+F 3 "" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3850 2250 4100
+$Comp
+L Device:C_Small C1-cxa2075
+U 1 1 5F4B0875
+P 2650 3000
+F 0 "C1-cxa2075" V 2550 3000 50  0000 C CNN
+F 1 "100nF" V 2750 3000 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 2650 3000 50  0001 C CNN
+F 3 "~" H 2650 3000 50  0001 C CNN
+	1    2650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2-cxa2075
+U 1 1 5F4B0C56
+P 3200 3250
+F 0 "C2-cxa2075" V 3100 3250 50  0000 C CNN
+F 1 "100nF" V 3300 3250 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 3200 3250 50  0001 C CNN
+F 3 "~" H 3200 3250 50  0001 C CNN
+	1    3200 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3-cxa2075
+U 1 1 5F4B0F7B
+P 3650 3550
+F 0 "C3-cxa2075" V 3550 3550 50  0000 C CNN
+F 1 "100nF" V 3750 3550 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 3650 3550 50  0001 C CNN
+F 3 "~" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1-cxa2075
+U 1 1 5F4B3A7E
+P 2300 3450
+F 0 "R1-cxa2075" H 2350 3500 50  0000 L CNN
+F 1 "470" V 2200 3350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2300 3450 50  0001 C CNN
+F 3 "~" H 2300 3450 50  0001 C CNN
+	1    2300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2-cxa2075
+U 1 1 5F4B4AB5
+P 2500 3550
+F 0 "R2-cxa2075" H 2559 3596 50  0000 L CNN
+F 1 "470" V 2400 3450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2500 3550 50  0001 C CNN
+F 3 "~" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3-cxa2075
+U 1 1 5F4B5196
+P 2700 3700
+F 0 "R3-cxa2075" H 2750 3650 50  0000 L CNN
+F 1 "470" V 2600 3600 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2700 3700 50  0001 C CNN
+F 3 "~" H 2700 3700 50  0001 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4-cxa2075
+U 1 1 5F4C39C1
+P 4000 4200
+F 0 "C4-cxa2075" V 3900 4200 50  0000 C CNN
+F 1 "330pF" V 4100 4200 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 4000 4200 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5-cxa2075
+U 1 1 5F4C39CB
+P 4250 3750
+F 0 "C5-cxa2075" V 4150 3750 50  0000 C CNN
+F 1 "330pF" V 4350 3750 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 4250 3750 50  0001 C CNN
+F 3 "~" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6-cxa2075
+U 1 1 5F4C39D5
+P 4500 4200
+F 0 "C6-cxa2075" V 4400 4200 50  0000 C CNN
+F 1 "330pF" V 4600 4200 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 4500 4200 50  0001 C CNN
+F 3 "~" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3350 2350 3350
+Wire Wire Line
+	2350 3350 2350 3000
+Wire Wire Line
+	2350 3000 2550 3000
+Connection ~ 2300 3350
+Wire Wire Line
+	2500 3450 2550 3450
+Wire Wire Line
+	2550 3450 2550 3250
+Wire Wire Line
+	2550 3250 3100 3250
+Connection ~ 2500 3450
+Wire Wire Line
+	2150 3550 2150 3600
+Wire Wire Line
+	2150 3600 2700 3600
+Wire Wire Line
+	2700 3600 3150 3600
+Wire Wire Line
+	3150 3600 3150 3550
+Wire Wire Line
+	3150 3550 3550 3550
+Connection ~ 2700 3600
+Wire Wire Line
+	2750 3000 4000 3000
+Wire Wire Line
+	4200 3000 4200 3200
+Wire Wire Line
+	4200 3200 4900 3200
+Wire Wire Line
+	3300 3250 3950 3250
+Wire Wire Line
+	3950 3250 3950 3050
+Wire Wire Line
+	3950 3050 4250 3050
+Wire Wire Line
+	3750 3550 3950 3550
+Wire Wire Line
+	3950 3550 3950 3350
+Wire Wire Line
+	3950 3350 4500 3350
+Wire Wire Line
+	4000 4100 4000 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 4200 3000
+Wire Wire Line
+	4250 3650 4250 3050
+Connection ~ 4250 3050
+Wire Wire Line
+	4250 3050 4900 3050
+Wire Wire Line
+	4500 4100 4500 3350
+Connection ~ 4500 3350
+Wire Wire Line
+	4500 3350 4900 3350
+Wire Wire Line
+	4900 4250 4650 4250
+Wire Wire Line
+	4650 4250 4650 4500
+Wire Wire Line
+	4650 4500 2550 4500
+Wire Wire Line
+	2050 4500 2050 3750
+Wire Wire Line
+	2300 3550 2300 3850
+Wire Wire Line
+	2300 3850 2250 3850
+Connection ~ 2250 3850
+Wire Wire Line
+	2500 3650 2500 3850
+Wire Wire Line
+	2500 3850 2300 3850
+Connection ~ 2300 3850
+Wire Wire Line
+	2700 3800 2700 3850
+Wire Wire Line
+	2700 3850 2500 3850
+Connection ~ 2500 3850
+Wire Wire Line
+	4500 4300 4500 4450
+Wire Wire Line
+	4500 4450 4250 4450
+Wire Wire Line
+	4000 4450 4000 4300
+Wire Wire Line
+	4250 3850 4250 4450
+Connection ~ 4250 4450
+Wire Wire Line
+	4250 4450 4000 4450
+Wire Wire Line
+	4000 4450 2700 4450
+Wire Wire Line
+	2700 4450 2700 3850
+Connection ~ 4000 4450
+Connection ~ 2700 3850
+Wire Wire Line
+	4700 4650 4700 3650
+Wire Wire Line
+	4700 3650 4900 3650
+Wire Wire Line
+	2000 3950 2000 4650
+Text Notes 500  4000 0    50   ~ 0
+3.58MHz clock
+$Comp
+L power:GNDD #PWR0114
+U 1 1 5F50CAD1
+P 4600 2850
+F 0 "#PWR0114" H 4600 2600 50  0001 C CNN
+F 1 "GNDD" H 4604 2695 50  0000 C CNN
+F 2 "" H 4600 2850 50  0001 C CNN
+F 3 "" H 4600 2850 50  0001 C CNN
+	1    4600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2900 6200 2900
+Wire Wire Line
+	6200 2900 6200 2650
+Wire Wire Line
+	6200 2650 4900 2650
+Wire Wire Line
+	4900 2650 4900 2900
+Wire Wire Line
+	4600 2850 4600 2650
+Wire Wire Line
+	4600 2650 4900 2650
+Connection ~ 4900 2650
+Wire Wire Line
+	4900 3800 4800 3800
+Wire Wire Line
+	4800 3800 4800 4550
+Wire Wire Line
+	4800 4550 4900 4550
+NoConn ~ 4900 3950
+$Comp
+L power:+5V #PWR0115
+U 1 1 5F514CF6
+P 4700 4900
+F 0 "#PWR0115" H 4700 4750 50  0001 C CNN
+F 1 "+5V" H 4715 5073 50  0000 C CNN
+F 2 "" H 4700 4900 50  0001 C CNN
+F 3 "" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4550 4800 4900
+Wire Wire Line
+	4800 4900 4700 4900
+Connection ~ 4800 4550
+$Comp
+L power:+5V #PWR0116
+U 1 1 5F4AF7D9
+P 2250 2800
+F 0 "#PWR0116" H 2250 2650 50  0001 C CNN
+F 1 "+5V" H 2265 2973 50  0000 C CNN
+F 2 "" H 2250 2800 50  0001 C CNN
+F 3 "" H 2250 2800 50  0001 C CNN
+	1    2250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9-cxa2075
+U 1 1 5F518B76
+P 2800 2300
+F 0 "C9-cxa2075" V 2700 2300 50  0000 C CNN
+F 1 "100nF" V 2900 2300 50  0000 C CNN
+F 2 "v9958:C_dual_hole_radial" H 2800 2300 50  0001 C CNN
+F 3 "~" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C10-cxa2075
+U 1 1 5F51950C
+P 2800 2700
+F 0 "C10-cxa2075" V 2900 2700 50  0000 C CNN
+F 1 "100uF" V 2700 2700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2800 2700 50  0001 C CNN
+F 3 "~" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0117
+U 1 1 5F51A7D1
+P 3300 2750
+F 0 "#PWR0117" H 3300 2500 50  0001 C CNN
+F 1 "GNDD" H 3304 2595 50  0000 C CNN
+F 2 "" H 3300 2750 50  0001 C CNN
+F 3 "" H 3300 2750 50  0001 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2850 2400 2850
+Wire Wire Line
+	2400 2850 2400 2700
+Wire Wire Line
+	2400 2700 2550 2700
+Connection ~ 2250 2850
+Wire Wire Line
+	2250 2850 2250 2800
+Wire Wire Line
+	2550 2700 2550 2300
+Wire Wire Line
+	2550 2300 2700 2300
+Connection ~ 2550 2700
+Wire Wire Line
+	2550 2700 2700 2700
+Wire Wire Line
+	2900 2300 3050 2300
+Wire Wire Line
+	3050 2300 3050 2700
+Wire Wire Line
+	3050 2700 2900 2700
+Wire Wire Line
+	3050 2700 3300 2700
+Wire Wire Line
+	3300 2700 3300 2750
+Connection ~ 3050 2700
+$Comp
+L power:+5V #PWR0118
+U 1 1 5F521F9E
+P 7650 3750
+F 0 "#PWR0118" H 7650 3600 50  0001 C CNN
+F 1 "+5V" H 7665 3923 50  0000 C CNN
+F 2 "" H 7650 3750 50  0001 C CNN
+F 3 "" H 7650 3750 50  0001 C CNN
+	1    7650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3650 6550 3650
+$Comp
+L Device:R_Small R6-cxa2075
+U 1 1 5F5247D2
+P 6400 3950
+F 0 "R6-cxa2075" V 6500 3700 50  0000 L CNN
+F 1 "2K61" V 6300 3850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3950 6300 3950
+Wire Wire Line
+	6500 3950 6550 3950
+Wire Wire Line
+	6550 3950 6550 3650
+Text Notes 6600 3950 0    50   ~ 0
+PALL 2K61\nNTSC 3K32 Exactly
+$Comp
+L Device:R_Small R5-cxa2075
+U 1 1 5F539ACB
+P 6850 3500
+F 0 "R5-cxa2075" V 6950 3300 50  0000 L CNN
+F 1 "75" V 6750 3450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6850 3500 50  0001 C CNN
+F 3 "~" H 6850 3500 50  0001 C CNN
+	1    6850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C11-cxa2075
+U 1 1 5F539FC2
+P 7400 3500
+F 0 "C11-cxa2075" V 7500 3500 50  0000 C CNN
+F 1 "220uF" V 7300 3500 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7400 3500 50  0001 C CNN
+F 3 "~" H 7400 3500 50  0001 C CNN
+	1    7400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3500 6750 3500
+Wire Wire Line
+	6950 3500 7300 3500
+$Comp
+L Connector:Conn_Coaxial J2-cxa2075
+U 1 1 5F54D3D9
+P 7950 3500
+F 0 "J2-cxa2075" H 8050 3475 50  0000 L CNN
+F 1 "Composiet-Out" H 8050 3384 50  0000 L CNN
+F 2 "v9958:CUI_RCJ-013" H 7950 3500 50  0001 C CNN
+F 3 " ~" H 7950 3500 50  0001 C CNN
+	1    7950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3500 7750 3500
+$Comp
+L power:GNDD #PWR0119
+U 1 1 5F551594
+P 7950 3750
+F 0 "#PWR0119" H 7950 3500 50  0001 C CNN
+F 1 "GNDD" H 7954 3595 50  0000 C CNN
+F 2 "" H 7950 3750 50  0001 C CNN
+F 3 "" H 7950 3750 50  0001 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3700 7950 3750
+$Comp
+L Connector:Mini-DIN-4 J3-cxa2075
+U 1 1 5F555039
+P 8350 4450
+F 0 "J3-cxa2075" H 8350 4200 50  0000 C CNN
+F 1 "S-VIDEO OUT" H 8350 4700 50  0000 C CNN
+F 2 "v9958:CUI_MD-40SM" H 8350 4450 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 8350 4450 50  0001 C CNN
+	1    8350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7-cxa2075
+U 1 1 5F5572D4
+P 6900 4100
+F 0 "R7-cxa2075" V 7000 3900 50  0000 L CNN
+F 1 "75" V 6800 4050 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6900 4100 50  0001 C CNN
+F 3 "~" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8-cxa2075
+U 1 1 5F558024
+P 6900 4500
+F 0 "R8-cxa2075" V 7000 4300 50  0000 L CNN
+F 1 "75" V 6800 4450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6900 4500 50  0001 C CNN
+F 3 "~" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C12-cxa2075
+U 1 1 5F559345
+P 7450 4100
+F 0 "C12-cxa2075" V 7550 4100 50  0000 C CNN
+F 1 "220uF" V 7350 4100 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7450 4100 50  0001 C CNN
+F 3 "~" H 7450 4100 50  0001 C CNN
+	1    7450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C13-cxa2075
+U 1 1 5F5599A2
+P 7450 4500
+F 0 "C13-cxa2075" V 7550 4500 50  0000 C CNN
+F 1 "220uF" V 7350 4500 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7450 4500 50  0001 C CNN
+F 3 "~" H 7450 4500 50  0001 C CNN
+	1    7450 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 4100 6800 4100
+Wire Wire Line
+	7000 4100 7350 4100
+Wire Wire Line
+	8200 4100 8200 4000
+Wire Wire Line
+	8200 4000 8650 4000
+Wire Wire Line
+	8650 4000 8650 4350
+Wire Wire Line
+	7550 4100 8200 4100
+Wire Wire Line
+	7550 4500 7750 4500
+Wire Wire Line
+	7750 4500 7750 4350
+Wire Wire Line
+	7750 4350 8050 4350
+Wire Wire Line
+	6100 4250 6500 4250
+Wire Wire Line
+	6500 4250 6500 4500
+Wire Wire Line
+	6500 4500 6800 4500
+Wire Wire Line
+	7000 4500 7350 4500
+$Comp
+L power:GNDD #PWR0120
+U 1 1 5F57052E
+P 8050 4800
+F 0 "#PWR0120" H 8050 4550 50  0001 C CNN
+F 1 "GNDD" H 8054 4645 50  0000 C CNN
+F 2 "" H 8050 4800 50  0001 C CNN
+F 3 "" H 8050 4800 50  0001 C CNN
+	1    8050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0128
+U 1 1 5F570D47
+P 8650 4800
+F 0 "#PWR0128" H 8650 4550 50  0001 C CNN
+F 1 "GNDD" H 8654 4645 50  0000 C CNN
+F 2 "" H 8650 4800 50  0001 C CNN
+F 3 "" H 8650 4800 50  0001 C CNN
+	1    8650 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4450 8050 4800
+Wire Wire Line
+	8650 4450 8650 4800
+$Comp
+L Connector:DB15_Female_HighDensity J4-cxa2075
+U 1 1 5F578393
+P 9050 2600
+F 0 "J4-cxa2075" H 9050 3467 50  0000 C CNN
+F 1 "VGA out" H 9050 3376 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 8100 3000 50  0001 C CNN
+F 3 " ~" H 8100 3000 50  0001 C CNN
+	1    9050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9-cxa2075
+U 1 1 5F57D923
+P 7050 2300
+F 0 "R9-cxa2075" V 7150 2100 50  0000 L CNN
+F 1 "75" V 6950 2250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7050 2300 50  0001 C CNN
+F 3 "~" H 7050 2300 50  0001 C CNN
+	1    7050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R10-cxa2075
+U 1 1 5F57DFFE
+P 7050 2600
+F 0 "R10-cxa2075" V 7150 2400 50  0000 L CNN
+F 1 "75" V 6950 2550 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7050 2600 50  0001 C CNN
+F 3 "~" H 7050 2600 50  0001 C CNN
+	1    7050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11-cxa2075
+U 1 1 5F57E720
+P 7050 2900
+F 0 "R11-cxa2075" V 7150 2700 50  0000 L CNN
+F 1 "75" V 6950 2850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7050 2900 50  0001 C CNN
+F 3 "~" H 7050 2900 50  0001 C CNN
+	1    7050 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C14-cxa2075
+U 1 1 5F57EEDD
+P 7650 2300
+F 0 "C14-cxa2075" V 7750 2300 50  0000 C CNN
+F 1 "220uF" V 7550 2300 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7650 2300 50  0001 C CNN
+F 3 "~" H 7650 2300 50  0001 C CNN
+	1    7650 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C15-cxa2075
+U 1 1 5F57F725
+P 7650 2600
+F 0 "C15-cxa2075" V 7750 2600 50  0000 C CNN
+F 1 "220uF" V 7550 2600 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7650 2600 50  0001 C CNN
+F 3 "~" H 7650 2600 50  0001 C CNN
+	1    7650 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C16-cxa2075
+U 1 1 5F5800D5
+P 7650 2900
+F 0 "C16-cxa2075" V 7750 2900 50  0000 C CNN
+F 1 "220uF" V 7550 2900 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7650 2900 50  0001 C CNN
+F 3 "~" H 7650 2900 50  0001 C CNN
+	1    7650 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3650 7300 3650
+Wire Wire Line
+	7300 3650 7300 3750
+Wire Wire Line
+	7300 3750 7650 3750
+Connection ~ 6550 3650
+Wire Wire Line
+	6100 3050 6400 3050
+Wire Wire Line
+	6400 3050 6400 2300
+Wire Wire Line
+	6400 2300 6950 2300
+Wire Wire Line
+	6100 3200 6550 3200
+Wire Wire Line
+	6550 3200 6550 2600
+Wire Wire Line
+	6550 2600 6950 2600
+Wire Wire Line
+	6100 3350 6700 3350
+Wire Wire Line
+	6700 3350 6700 2900
+Wire Wire Line
+	6700 2900 6950 2900
+Wire Wire Line
+	7150 2300 7550 2300
+Wire Wire Line
+	7150 2600 7550 2600
+Wire Wire Line
+	7150 2900 7550 2900
+Wire Wire Line
+	7750 2300 8200 2300
+Wire Wire Line
+	8200 2300 8200 2200
+Wire Wire Line
+	8200 2200 8750 2200
+Wire Wire Line
+	7750 2600 8300 2600
+Wire Wire Line
+	8300 2600 8300 2400
+Wire Wire Line
+	8300 2400 8750 2400
+Wire Wire Line
+	7750 2900 8450 2900
+Wire Wire Line
+	8450 2900 8450 2600
+Wire Wire Line
+	8450 2600 8750 2600
+Text GLabel 2550 4350 1    50   Input ~ 0
+C-SYNC
+Wire Wire Line
+	2550 4350 2550 4500
+Connection ~ 2550 4500
+Wire Wire Line
+	2550 4500 2050 4500
+Text GLabel 9300 3650 0    50   Input ~ 0
+C-SYNC
+$Comp
+L Device:R_Small R12-cxa2075
+U 1 1 5F5B575D
+P 9450 3350
+F 0 "R12-cxa2075" V 9550 3150 50  0000 L CNN
+F 1 "82R5" V 9350 3300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 9450 3350 50  0001 C CNN
+F 3 "~" H 9450 3350 50  0001 C CNN
+	1    9450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3650 9450 3650
+Wire Wire Line
+	9450 3650 9450 3450
+Wire Wire Line
+	9450 3250 9450 2600
+Wire Wire Line
+	9450 2600 9350 2600
+Text Notes 950  3300 0    50   ~ 0
+5V
+Text Notes 900  3900 0    50   ~ 0
+GND
+NoConn ~ 8750 2100
+NoConn ~ 8750 2300
+NoConn ~ 8750 2500
+NoConn ~ 8750 2700
+NoConn ~ 9350 2200
+NoConn ~ 9350 2400
+NoConn ~ 9350 2800
+NoConn ~ 9350 3000
+NoConn ~ 8750 2800
+NoConn ~ 8750 2900
+NoConn ~ 8750 3000
+Wire Wire Line
+	2000 4650 4700 4650
+Text GLabel 1900 3250 0    50   Input ~ 0
+1<->cxa2075
+Text GLabel 1900 3350 0    50   Input ~ 0
+2<->cxa2075
+Text GLabel 1900 3450 0    50   Input ~ 0
+3<->cxa2075
+Text GLabel 1900 3550 0    50   Input ~ 0
+4<->cxa2075
+Text GLabel 1900 3650 0    50   Input ~ 0
+5<->cxa2075
+Text GLabel 1900 3750 0    50   Input ~ 0
+6<->cxa2075
+Text GLabel 1900 3850 0    50   Input ~ 0
+7<->cxa2075
+Text GLabel 1900 3950 0    50   Input ~ 0
+8<->cxa2075
+Wire Wire Line
+	1900 3250 2250 3250
+Wire Wire Line
+	1900 3350 2300 3350
+Wire Wire Line
+	1900 3450 2500 3450
+Wire Wire Line
+	1900 3550 2150 3550
+Wire Wire Line
+	1900 3750 2050 3750
+Wire Wire Line
+	1900 3850 2250 3850
+Wire Wire Line
+	1900 3950 2000 3950
+NoConn ~ 1900 3650
+$EndSCHEMATC
