@@ -1,4 +1,4 @@
-# V9958-Artemisa-with-CXA2075
+# V9958-Artemisa-MSX-with-CXA2075
 Video extension Artemisa MSX V9958 with CXA2075 (Composiet)
 
 V9958 for Artemisa(Made By Alvaro Polo) [Artemisa MSX Project](https://github.com/apoloval/artemisa)
